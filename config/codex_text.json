@@ -1,0 +1,25 @@
+{
+  "bookInfo": {
+    "title": "Codex of The Shattered Ego",
+    "author": "The Void"
+  },
+  "staticPages": {
+    "lore": "“This book is bound to your soul. Every block you mine, every chest you plunder, every life you extinguish… it leaves a stain.\n\nWhen your stains run deep, the sky shall tear open and the Void will demand its tribute. You cannot run. You cannot hide. You can only survive.”",
+    "rulesPart1": "§0§lHow the Gauntlet Works§r\n\n§4• The Sin Meter:§r Your actions accrue Sin. When your meter hits 100, your current judge is summoned.\n\n§4• The Gauntlet:§r You must face all 14 legendary executioners in order.",
+    "rulesPart2": "§4• The Toll:§r If you fall in the arena, your progression halts. You will face the same Judge again when you next transgress.\n\nIf you succeed, you earn a piece of your shattered self."
+  },
+  "index": {
+    "header": "§0§lINDEX OF THE VOID§r\n\nClick a chapter to read:\n\n",
+    "chapters": [
+      { "title": "§4§n1. The Lore§r\n\n", "targetPage": "3" },
+      { "title": "§4§n2. How the Gauntlet Works§r\n\n", "targetPage": "4" },
+      { "title": "§4§n3. The Call to Judgement§r\n\n", "targetPage": "6" },
+      { "title": "§4§n4. Defeated Judges§r\n\n", "lockedTitle": "§84. Defeated Judges (Locked)§r\n\n", "targetPage": "7" }
+    ]
+  },
+  "callToJudgement": {
+    "flavorText": "“Do not wait for the Void to drag you kicking and screaming. Prove your defiance. When your sin is ripe, open this page and command the gate to open.”\n\n\n",
+    "buttonText": "[CLICK HERE TO FACE YOUR JUDGEMENT]",
+    "command": "/sins accept"
+  }
+}

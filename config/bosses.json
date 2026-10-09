@@ -1,0 +1,110 @@
+{
+  "bosses": [
+    {
+      "id": 1,
+      "name": "Council of Slain Scholars",
+      "structure": "sins:libraryarena",
+      "playerSpawnOffset":{ "x": 0.5, "y": 8.0, "z": 0.5 },
+      "spawnYaw": 0,
+      "entities": [
+        "irons_spellbooks:pyromancer",
+        "irons_spellbooks:cryomancer",
+        "wind_spellbooks:aeromancer",
+        "irons_spellbooks:archevoker",
+        "irons_spellbooks:priest"
+      ],
+      "excerpt": "“You thought yourself a prodigy. You walked into our high towers with cold steel and took our life’s work, stitching our hard-won spells into your crude leather books. When we dragged you to the clouds, you scrambled like an insect under our magicks. You survived, yes, but you only proved that a thief can run fast when they are chased.”"
+    },
+    {
+      "id": 2,
+      "name": "The Crownless Monarch",
+      "structure": "sins:deadkingarena",
+      "playerSpawnOffset":{ "x": -5.0, "y": 0.0, "z": 0.5 },
+      "bossSpawnOffset": { "x": 0, "y": 6, "z": -12 },
+      "spawnYaw": 180,
+      "bossSpawnYaw": 0,
+      "entities": ["irons_spellbooks:dead_king"],
+      "excerpt": "“You slinked through our catacombs like a dying rat, prying gold coins and ancient relic keys from our royal sarcophagus. We met you on the obsidian throne, showed you the crushing weight of a true king’s blade. You staggered, bled, and realized some crowns are too heavy for a grave-robber to wear.”"
+    },
+    {
+      "id": 3,
+      "name": "Lord of the Frozen Keep",
+      "structure": "sins:graveyardarena",
+      "playerSpawnOffset":{ "x": 5.5, "y": 3, "z": -10.5 },
+      "bossSpawnOffset": { "x": 0, "y": 8, "z": 10 },
+      "entities": ["bosses_of_mass_destruction:lich"],
+      "excerpt": "“The dead do not seek conflict, yet you could not let us sleep. You shattered the seals, plundering our crypts just to harvest our bones for your basic spells. When we pulled you into the blizzard, your limbs froze, and your stolen magic sputtered. You broke our crown, but the chill of the grave will linger in your veins forever.”"
+    },
+    {
+      "id": 4,
+      "name": "The Ashen Usurper",
+      "structure": "sins:ignisarena",
+      "entities": ["irons_spellbooks:fire_boss"],
+      "playerSpawnOffset":{ "x": 14.5, "y": 2.0, "z": 14.5 },
+      "bossSpawnYaw": 180,
+      "excerpt": "“You brandished your newly stolen spells with wild, undisciplined rage, slaughtering the innocent beasts of the overworld to test your strength. We showed you what true, concentrated fire demands. Our ancient knights locked you in a cage of iron shields while our blade taught you respect. You conquered fire, but you remain a peasant playing with stolen matches.”"
+    },
+    {
+      "id": 5,
+      "name": "The Sunken Colossus",
+      "entities": ["cataclysm:coralssus"],
+      "excerpt": "“The oceans were silent until you arrived with your depth-striding boots, tearing away the sacred reefs and slaughtering the marine depths merely to decorate your base. We dragged you down to the crushing floor and made you gasp for air as the sea sought to collapse your lungs. You shattered our shell, but the ocean remembers what you stole.”"
+    },
+    {
+      "id": 6,
+      "name": "The First of the Abyss",
+      "entities": ["bosses_of_mass_destruction:gauntlet"],
+      "excerpt": "“You treated the burning under-realms like your personal mining shaft, tearing out quartz and debris while abusing speedrunner tricks to cheat our hazards. We met you in the red ash. We clenched our stone fist around your arrogant neck. You broke free, but you will never walk the Nether again without looking over your shoulder.”"
+    },
+    {
+      "id": 7,
+      "name": "The Soul-Bound Anvil",
+      "entities": ["cataclysm:netherite_monstrosity"],
+      "excerpt": "“You hollowed out the world’s core, gorging yourself on ancient debris and chugging gold potions to hide your fragility behind a thick black shell. We forced you to stand on the burning grates. We showed you how easily netherite buckles and cracks under raw, kinetic pressure. Your armour is dented, sinner. It will never shine again.”"
+    },
+    {
+      "id": 8,
+      "name": "The Cursed Pharaoh",
+      "entities": ["cataclysm:ancient_remnant"],
+      "excerpt": "“You vandalized the sacred pyramids, tearing down sandstone walls and ignoring the local history for quick treasure. We rose from the dust to bury you. You choked on the sand and panicked as our stone limbs closed the distance. You walked away with your shiny trinkets, but the desert has already begun writing your epitaph.”"
+    },
+    {
+      "id": 9,
+      "name": "The Nightmare Floral",
+      "structure": "sins:flowerarena",
+      "playerSpawnOffset":{ "x": 11, "y": 0, "z": 7 },
+      "entities": ["bosses_of_mass_destruction:void_blossom"],
+      "excerpt": "“You became lazy, standing on high ledges and casting your spells down from absolute safety, refusing to take a single risk. We pulled you into our garden of poison and forced you to jump across crumbling platforms, scrambling over the endless void as we rained down misery. You had to move your feet, coward. You had to look at the drop.”"
+    },
+    {
+      "id": 10,
+      "name": "The Redstone Golem",
+      "entities": ["cataclysm:the_harbinger"],
+      "excerpt": "“You built your massive, noisy factories. You automated the world so you could sleep while machines did your dirty work. We met you on the assembly floor. We turned our death lasers upon you and laughed as your ranged spells bounced harmlessly off our steel plating. You had to bleed in close combat to survive. Your machines could not save you.”"
+    },
+    {
+      "id": 11,
+      "name": "The Abyssal Horror",
+      "entities": ["cataclysm:the_leviathan"],
+      "excerpt": "“You thought you conquered the water. You swam through our deepest sanctuaries with infinite-breath magic, acting like a god of the tides. We dragged you to the absolute bottom, where no light penetrates. We crushed your spells under ocean gravity. You escaped our jaws, but the deep dark will always claim its tribute.”"
+    },
+    {
+      "id": 12,
+      "name": "The Void Anchor",
+      "entities": ["bosses_of_mass_destruction:obsidilith"],
+      "excerpt": "“You invaded the End, slaughtering the peaceful watchers for their pearls and ignoring the structural laws of the void. We pulled you to the very edge of existence. We manipulated gravity to throw your body against the cold stone. You managed to ground us, but you know how close you came to falling forever.”"
+    },
+    {
+      "id": 13,
+      "name": "The Scorched Divinity",
+      "entities": ["cataclysm:ignis"],
+      "excerpt": "“You left nothing but ash and craters across the world in your endless quest for power. We welcomed you to our pyre. With every strike of our greatsword, we permanently melted your god-tier armor into useless slag. You defeated us, but you stood in the ruins of your own defenses—naked, terrified, and burning.”"
+    },
+    {
+      "id": 14,
+      "name": "The Shattered Echo",
+      "entities": ["minecraft:zombie"],
+      "excerpt": "“You conquered the monsters. You automated the world. You solved the magic. You walked down the golden path, believing you were a god. Then, the sky broke. Your torches died. You fought your own skin, your own spells, and your own absolute arrogance. You won—but as you pick up your mirror-bound armor, you realize: you didn't kill a monster. You just proved how terrifying you have become.”"
+    }
+  ]
+}
